@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/index.js",
+    "build": "npx tsc --outDir public",
+    "start": "node public/index.js",
     "dev": "npx tsx src/index.ts",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/public/css/tailwind.css --watch"
   },
