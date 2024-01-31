@@ -18,11 +18,20 @@ app.use(express.static('./src/public'));
 app.set('views', './src/views');
 
 app.get('/', function(req: Request, res: Response) {
-  res.send('Hello World!');
+  res.redirect('/blogs');
 });
 
 app.get('/blogs', function(req: Request, res: Response) {
-    res.render('blogs')
+  res.render('blogs')
+});
+
+app.get('/blogs/:id', function(req: Request<{ id: string }>, res: Response) {
+  let id = Number(req.params.id);
+  if (isNaN(id)) {
+    res.status(404).send('Not Found');
+  } else {
+    res.render('blog', {id: id});
+  }
 });
 
 app.listen(port, function() {
