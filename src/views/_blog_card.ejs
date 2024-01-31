@@ -1,10 +1,10 @@
 <div class="flex p-4 hover:bg-slate-400 cursor-pointer bg-slate-300 rounded-lg">
   <div class="flex basis-2/12">
-    <img src="img/cat.jpg" alt="cat" class="object-cover rounded-lg">
+    <img src="<%- blog.image_url %>" alt="cat" class="object-cover rounded-lg">
   </div>
   <div class="p-1"></div>
   <div class="flex flex-col basis-10/12 min-w-0 break-words ">
-    <h2 class="text-xl font-bold">Blog Title</h2>
-    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    <h2 class="text-xl font-bold"><%- blog.title %></h2>
+    <p class="text-sm"><%- blog.description %></p>
   </div>
 </div>

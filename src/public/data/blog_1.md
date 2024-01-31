@@ -1,3 +1,11 @@
+---
+title: The Skills Needed by ICU Nurses
+description: blah
+image_url: /img/cat.jpg
+image_alt_text: a cat
+date: 08/18/2001
+---
+
 # The Skills Needed by ICU Nurses:  A Primer on What We Really Need to Know
 
 As an ICU nurse, I believe I’m paid to think. Otherwise, soon, a robot could do my job. The reality is that I am the person ensuring my patients survive the twelve hours of my shift. I notice the subtle changes that sound my nurse alarm far before any electronic monitor can. However, many days, I think there are several skills truly overlooked in nursing school.

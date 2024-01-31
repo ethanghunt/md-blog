@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-}
-
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -548,6 +544,21 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.markdown-html-wrapper {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  h3, h4, h5, h6 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 .sticky {
   position: sticky;
 }
@@ -577,16 +588,8 @@ video {
   min-width: 0px;
 }
 
-.max-w-5xl {
-  max-width: 64rem;
-}
-
 .max-w-4xl {
   max-width: 56rem;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .flex-grow {
@@ -647,6 +650,11 @@ video {
   padding: 1.5rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -662,17 +670,8 @@ video {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .hover\:bg-slate-400:hover {

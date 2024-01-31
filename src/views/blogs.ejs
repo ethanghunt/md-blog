@@ -1,7 +1,6 @@
-<div class="p-4">
+<div class="mx-auto w-9/12 max-w-4xl flex flex-col gap-4">
   <h1 class="text-3xl font-bold">Blogs</h1>
-  <div class="p-1"></div>
-  <%- include('_blog_card') %>
-  <div class="p-1"></div>
-  <%- include('_blog_card') %>
+  <% for (const blog of blogs) { %>
+    <%- include('_blog_card', { blog: blog }) %>
+  <% } %>
 </div>
