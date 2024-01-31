@@ -73,6 +73,11 @@ app.get('/blogs/:id', function(req: Request<{ id: string }>, res: Response) {
   res.render('blog', { blog: blogs[id] });
 });
 
+// 404 page if the route is not found
+app.use(function(req: Request, res: Response) {
+  res.status(404).send('Not Found');
+});
+
 app.listen(port, function() {
   console.log(`Server started on port ${port}`);
 });
