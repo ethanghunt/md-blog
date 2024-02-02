@@ -544,23 +544,27 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.markdown-html-wrapper {
-  h1 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-  h2 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-  h3, h4, h5, h6 {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-  p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h3,
+  h4,
+  h5,
+  h6 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .sticky {

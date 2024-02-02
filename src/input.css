@@ -3,18 +3,19 @@
 @tailwind utilities;
 
 @layer components {
-  .markdown-html-wrapper {
-    h1 {
-      @apply text-2xl;
-    }
-    h2 {
-      @apply text-xl;
-    }
-    h3, h4, h5, h6 {
-      @apply text-lg;
-    }
-    p {
-      @apply text-base;
-    }
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-lg;
+  }
+  p {
+    @apply text-base;
   }
 }
